@@ -1,14 +1,17 @@
+import Menu from "./components/header/Menu";
+import HeroSection from "./components/hero/HeroSection";
+import ProjectSection from "./components/cards/ProjectSection";
+import ContactForm from "./components/form/ContactForm";
+import Footer from "./components/footer/FooterSection";
 
-
-function App() {
+export default function App() {
   return (
-   <div>
-    <p className="text-3xl font-bold underline">TEMPLATE FULLSTACK</p>
-    <button className="btn w-64 rounded-full">PORTFOLIO</button>
-    <p>REACT JS / TAILWIND CSS / DAISY UI</p>
-    <p>PRISMA</p>
-   </div>
+    <div data-theme="dracula">
+      <Menu/>
+      <HeroSection />
+      <ProjectSection />
+      <ContactForm />
+      <Footer />
+    </div>
   )
 }
-
-export default App
