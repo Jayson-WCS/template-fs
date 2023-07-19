@@ -1,12 +1,17 @@
+import HeroButton from "../buttons/HeroButton";
+
 export default function HeroSection() {
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className="text-5xl font-bold">Hello there</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-secondary">Get Started</button>
+    <div id="hi" className="hero min-h-screen bg-base-200">
+      <div className="hero-content text-left flex flex-col items-start">
+        <div className="min-w-screen leading-10 font-[poppins]">
+          <h1 className="min-w-screen text-6xl capitalize font-light">delion jayson</h1>
+          <span className="text-9xl uppercase font-bold">front end developer</span>
+          <br/>
+          <span className="text-4xl capitalize font-light">UI / UX lover</span>
+          <br/>
         </div>
+        <HeroButton/>
       </div>
     </div>
   )

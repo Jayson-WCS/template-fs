@@ -5,6 +5,7 @@ import App from "./App";
 import ErrorPage from "./pages/ErrorPage";
 import "./index.css";
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>

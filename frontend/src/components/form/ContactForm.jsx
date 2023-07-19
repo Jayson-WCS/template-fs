@@ -2,7 +2,7 @@ import ModalConfirm from "../modal/ModalConfirm"
 
 export default function ContactForm() {
   return (
-    <form className="min-h-screen flex flex-col items-center justify-center m-auto">
+    <div id="contact" className="min-h-screen flex flex-col items-center justify-center m-auto scroll-smooth" >
     <h3 className="text-3xl">Contact</h3>
       <div className="form-control w-full max-w-xs">
         <label className="label">
@@ -19,6 +19,6 @@ export default function ContactForm() {
         <textarea className="textarea textarea-bordered h-24" placeholder="Any suggestions are welcome"></textarea>
       </div>
     <ModalConfirm />
-    </form>
+    </div>
   )
 }
