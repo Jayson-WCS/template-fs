@@ -1,12 +1,15 @@
 export default function ModalConfirm() {
   return (
     <>
-      <button className="btn btn-secondary mt-5" onClick={()=>window.my_modal_2.showModal()}>Send</button>
-      <dialog id="my_modal_2" className="modal">
-        <form method="dialog" className="modal-box">
-          <p className="py-4">Thank you for reaching out !</p>
-        </form>
-      </dialog>
+      <label htmlFor="my_modal_7" className="btn">Send</label>
+      <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+      <div className="modal">
+        <div className="modal-box">
+          <h3 className="text-lg font-bold">Thanks for reaching out !</h3>
+          <p className="py-4">I&apos;ll get back to you in the near future.<br/>Have a great rest of your day !</p>
+        </div>
+        <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
+      </div>
     </>
   )
 }

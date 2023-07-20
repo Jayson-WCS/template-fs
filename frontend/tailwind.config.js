@@ -9,7 +9,7 @@ module.exports = {
     require("daisyui"),
   ],
   daisyui: {
-    themes: ["synthwave", "emerald", "dracula", "cyberpunk", "night", "light", "dark"],
+    themes: ["forest", "cyberpunk", "cmyk", "dark", "lemonade"],
     extend: {
       fontFamily: {
         'poppins': ["'Poppins'", "'sans-serif'"],
