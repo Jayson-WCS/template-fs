@@ -75,7 +75,7 @@ export default function ContactForm() {
       />
       <div id="contact" data-theme="forest" className="hero min-h-screen bg-base-200">
         <div data-theme="lemonade" className="hero-content flex-col lg:flex-row-reverse rounded p-9">
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card flex-shrink-0 w-full max-w-sm shadow-md bg-base-100">
             <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <div className="form-control">
