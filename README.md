@@ -11,7 +11,8 @@ This portfolio showcases my projects, skills, and experiences as a web developer
 The portfolio is built using the following technologies:
 
 - React.js
-- Tailwind CSS (for styling)
+- Tailwind CSS
+- Daisy UI
 - Prisma
 - Node.js
 
