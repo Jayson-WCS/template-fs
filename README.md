@@ -1,6 +1,7 @@
 # Portfolio
 
-Welcome to my portfolio! This repository contains the source code for my personal portfolio website. You can visit the live site at [Jay](https://www.yourportfolio.com).
+Welcome to my portfolio! This repository contains the source code for my personal portfolio website.
+>>>>>>> cee2829c5f392c753144753770981fae47ea9257
 
 ## Introduction
 
@@ -10,12 +11,11 @@ This portfolio showcases my projects, skills, and experiences as a web developer
 
 The portfolio is built using the following technologies:
 
-- HTML
-- CSS
-- JavaScript
 - React.js
-- Tailwind CSS (for styling)
-- Node.js (for backend services, if applicable)
+- Tailwind CSS
+- Daisy UI
+- Prisma
+- Node.js
 
 ## Setup
 
@@ -23,8 +23,7 @@ To run the portfolio locally on your machine, follow these steps:
 
 1. Clone the repository to your local machine using `git clone`.
 2. Navigate to the project directory and install dependencies using `npm install`.
-3. Start the development server with `npm start`.
-4. Open your web browser and visit `http://localhost:3000` to view the portfolio.
+3. Start the development server with `npm run start`.
 
 ## Features
 
