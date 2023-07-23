@@ -23,14 +23,14 @@ To run the portfolio locally on your machine, follow these steps:
 
 1. Clone the repository to your local machine using `git clone`.
 2. Navigate to the project directory and install dependencies using `npm install`.
-3. Start the development server with `npm run start`.
+3. Do not forget to modify your credentials according to the `.env.sample` file.
+4. Start the development server with `npm run start`.
 
 ## Features
 
 - View a list of my projects and click on each project to see more details.
 - Learn about my skills, experiences, and achievements.
 - Easily contact me through the provided contact form.
-- Responsive design to ensure a seamless experience on different devices.
 
 ## Contact
 
