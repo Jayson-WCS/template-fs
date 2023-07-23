@@ -1,8 +1,5 @@
 # Portfolio
 
-Welcome to my portfolio! This repository contains the source code for my personal portfolio website.
->>>>>>> cee2829c5f392c753144753770981fae47ea9257
-
 ## Introduction
 
 This portfolio showcases my projects, skills, and experiences as a web developer. It is designed to provide potential clients or employers with an overview of my work and expertise. The website includes sections for my projects, a brief about me, contact information, and more.
