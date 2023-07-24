@@ -6,7 +6,7 @@ import flipperHome from "../../assets/flipperHome.png";
 import hackathonAlibi from "../../assets/hackathonAlibi.png";
 
 export default function CardProject() {
-  const projects = ["Omnifood", "Travel Agency", "Snake", "Doruido", "Hackathon Alibi", "Flipper"];
+  const projects = ["Omnifood", "Travel Agency", "Snake", "Doruido", "Hackathon - Hidelidays", "Flipper"];
   const projectImages = [omnifood, travelAgency, snakeGame, doruido, hackathonAlibi, flipperHome];
   const projectsTags = [
     ["html", "css", "javascript"],
