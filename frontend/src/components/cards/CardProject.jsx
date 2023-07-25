@@ -11,7 +11,7 @@ export default function CardProject() {
   const projectsTags = [
     ["html", "css", "javascript"],
     ["html", "css", "javascript"],
-    ["html", "css", "javascript"],
+    ["html", "css", "javascript"], 
     ["react", "sass", "node", "mysql"],
     ["react", "sass"],
     ["html", "css", "javascript"],

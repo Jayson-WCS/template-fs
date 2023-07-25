@@ -4,15 +4,25 @@
 generator client {
   provider = "prisma-client-js"
 }
-
 datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
-
 model Contact {
-  id    Int    @id @default(autoincrement())
-  username  String
-  email String
-  message String
+  id      Int    @id @default(autoincrement())
+  username String
+  email    String
+  message  String
+}
+model Project {
+  id          Int      @id @default(autoincrement())
+  title       String
+  projectURL  String
+  description String
+  tags        Tag[]
+}
+model Tag {
+  id    Int     @id @default(autoincrement())
+  name  String  @unique
+  projects Project[]
 }
